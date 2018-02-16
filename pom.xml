@@ -39,7 +39,7 @@
         <eclipselink.version>2.6.5</eclipselink.version>
         <!-- 2.7.*: java.lang.SecurityException: class "javax.persistence.PersistenceUtil"'s signer information does not match signer information of other classes in the same package -->
         <hibernate.version>5.2.13.Final</hibernate.version>
-        <gpg.sign>false</gpg.sign>
+        <gpg.no-sign>false</gpg.no-sign>
     </properties>
 
     <build>
@@ -153,7 +153,7 @@
                             <goal>sign</goal>
                         </goals>
                         <configuration>
-                            <skip>${gpg.sign}</skip>
+                            <skip>${gpg.no-sign}</skip>
                         </configuration>
                     </execution>
                 </executions>
