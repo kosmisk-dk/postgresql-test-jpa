@@ -33,13 +33,13 @@
     </licenses>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <eclipselink.version>2.6.5</eclipselink.version>
         <!-- 2.7.*: java.lang.SecurityException: class "javax.persistence.PersistenceUtil"'s signer information does not match signer information of other classes in the same package -->
         <hibernate.version>5.2.13.Final</hibernate.version>
         <gpg.sign>false</gpg.sign>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <build>
