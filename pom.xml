@@ -4,7 +4,7 @@
 
     <groupId>dk.kosmisk</groupId>
     <artifactId>postgresql-test-jpa</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -47,7 +47,7 @@
         <eclipselink.version>2.6.5</eclipselink.version>
         <!-- 2.7.*: java.lang.SecurityException: class "javax.persistence.PersistenceUtil"'s signer information does not match signer information of other classes in the same package -->
         <hibernate.version>5.2.13.Final</hibernate.version>
-        <gpg.no-sign>true</gpg.no-sign>
+        <gpg.no-sign>false</gpg.no-sign>
     </properties>
 
     <build>
