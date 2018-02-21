@@ -114,7 +114,7 @@
             <plugin>
                 <groupId>dk.kosmisk</groupId>
                 <artifactId>postgresql-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>1.0.2</version>
                 <configuration>
                     <!-- <groupId>dk.kosmisk</groupId> -->
                     <!-- <artifactId>postgresql-binary</artifactId> -->
@@ -173,7 +173,7 @@
         <dependency>
             <groupId>dk.kosmisk</groupId>
             <artifactId>postgresql-test-datasource</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.1</version>
             <type>jar</type>
         </dependency>
 
